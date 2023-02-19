@@ -1,0 +1,156 @@
+<?php include('server.php')?>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/login.css">
+	
+    <link rel = "stylesheet" href = "css/utilities.css">
+    
+	<link rel="stylesheet" href="css/loginHeader.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+<div id="Top"></div>
+<div class="header1">	
+		<a href="MuzaHome.html"><img src="logo_final.png"></a>		
+		<input type="search" name="SearchBar" placeholder="Search" Id="Search">
+		<span id="searchlogo">
+		<a ><i class="fa fa-search" style="color:#bdbdc2;"></i></a>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a class="your-cart js-toggle-cart" data-item-num="3"><i class="fa fa-lg fa-shopping-bag" style="margin-top:54px;"></i></a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="login.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+		<div class="cart">
+  
+			<div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart" style="padding:10px;color:white;background-color:black;">Empty Cart</button>
+            <button id="checkout" style="padding:10px;color:white;background-color:black;">Checkout</button>
+          </div>
+        </div>
+		</div>
+    
+    
+
+		</div>
+		</span>
+	</div>
+	<div>
+	<div class="header2">
+	
+		<nav> 			
+			<div class="nav-link">
+			<ul>			
+			
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Lounge.html">Lounge</a></li>
+				<li><a href="dining.html">Dining</a></li>
+				<li><a href="Room.html">Room</a></li>
+				<li><a href="kid_section.html">Kids Room</a></li>		
+				<li><a href="Outdoor.html">Outdoor</a></li>
+				<li><a href="AboutUS.html">AboutUs <i class="fa fa-user-circle-o" aria-hidden="true"></i> </a></li>
+				<li><a href="ContactUs.html">ContactUs <i class="fa fa-volume-control-phone" aria-hidden="true"></i></a></li>
+				<li><a href="login.html">Login<i class="fa fa-user" aria-hidden="true"></i></a></li>
+			
+			</ul>
+			
+			</div>
+			
+		</nav>
+	</div>
+	</div>
+	<br><br><br>
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1><br>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<br>
+			<button class="loginbtn">Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1><br>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1><br>
+				<p>To keep connected with us please login with your personal info</p><br>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello!</h1><br>
+				<p>Enter your personal details and start journey with us</p><br>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+<br><br><br><br><br>
+	<script src="js/login.js"></script>
+	
+	<!-- Footer -->
+			<footer>
+				<div class="footer-content">
+					
+					<h3> <a href="index.html"><img src="logo_final.png"><br></a>Muza Furniture</h3><br>
+					<p>
+					Whether you’re looking for a couch, coffee table, wardrobe or just a curio cabinet to finish off your family room, here at MUZA furniture we have all the furniture you need to decorate your space.</p>
+					<ul class="socials">
+						<li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i><a></li>
+						<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i><a></li>
+						<li><a href="https://home.google.com/welcome/"><i class="fa fa-google-plus"></i><a></li>
+						<li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i><a></li>
+						<li><a href="https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.google.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fjoinsquare"><i class="fa fa-linkedin-square"></i><a></li>
+					</ul>
+				</div>
+				<div class="footer-bottom">
+					<p style="color:white;"> copyright &copy; 2023 MUZAfurniture</p> 
+				</div>
+			</footer>
+			<!-- end of featured product -->
+			<!-- end of featured product -->
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js'></script>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js'></script>
+			
+			<script  src="js/cartDropdown.js"></script> 
+			<script  src="js/CartJs.js"></script> 
+</body>
+</html>
+

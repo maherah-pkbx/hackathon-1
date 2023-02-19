@@ -1,0 +1,73 @@
+	
+	
+.about-MuzaFurniture{
+		background: url("about us.jpg") no-repeat left;
+		background-size: 60%;
+		background-color: #fdfdfd;
+		overflow: hidden;
+		padding: 100px 0;
+	}
+	.inner-section-MuzaFurniture{
+		width: 55%;
+		float: right;
+		background-color: #695344;
+		padding: 140px;
+		box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+	}
+	.inner-section-MuzaFurniture h1{
+		margin-bottom: 30px;
+		font-size: 30px;
+		font-weight: 900;
+	}
+	.text-MuzaFurniture{
+		font-size: 15px;
+		color: #E5E2DF;
+		line-height: 30px;
+		text-align: justify;
+		margin-bottom: 40px;
+	}
+	.skills-MuzaFurniture button{
+		font-size: 22px;
+		text-align: center;
+		letter-spacing: 2px;
+		border: none;
+		border-radius: 20px;
+		padding: 8px;
+		width: 200px;
+		background-color: #DFE5E2;
+		color: white;
+		cursor: pointer;
+	}
+	.skills-MuzaFurniture button:hover{
+		transition: 1s;
+		background-color: #ecf5f5;
+		color: #00999c;
+	}
+	@media screen and (max-width:1200px){
+		.inner-section-MuzaFurniture{
+			padding: 80px;
+		}
+	}
+	@media screen and (max-width:1000px){
+		.about-MuzaFurniture{
+			background-size: 100%;
+			padding: 100px 40px;
+		}
+		.inner-section-MuzaFurniture{
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width:600px){
+		.about-MuzaFurniture{
+			padding: 0;
+		}
+		.inner-section-MuzaFurniture{
+			padding: 60px;
+		}
+		.skills-MuzaFurniture button{
+			font-size: 19px;
+			padding: 5px;
+			width: 160px;
+		}
+	}
